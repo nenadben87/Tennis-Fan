@@ -1,0 +1,218 @@
+:root {
+  --primary-color: #BADA55;
+  --secondary-color: #7555da;
+  --blue-color: #55bada;
+  --purple-color: #da55ba;
+  --green-color: #78da55;
+  --light-color: #fff;
+  --dark-color: #333;
+  --grey-color: #cccc;
+}
+
+/* Media Queries for larger screens */
+@media(min-width: 1920px){
+  nav ul li a {
+    font-size: 1.6rem;
+  }
+  
+  .previews-content p,
+  .previews-content ul li,
+  .previews-content h4 {
+    font-size: 1.3rem;
+  }
+
+  .previews-content ul li img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .versus {
+    font-size: 2rem;
+  }
+
+  .player-1,
+  .player-2 {
+    width: 320px;
+  }
+
+  .footer-nav a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media Queries for smaller screens */
+@media(max-width: 912px){
+  .match-1,
+  .match-2,
+  .match-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .match-1-players {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+  }
+
+  .match-2 {
+    background-color: var(--grey-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .match-2-text {
+    margin-bottom: 6rem;
+  }
+
+  .match-2-text h4 span {
+    color: grey
+  }
+
+  .match-2-players .player-1 ul li,
+  .match-2-players .player-2 ul li {
+  border: 1px solid gray;
+}
+
+  .match-3-players {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media(max-width: 820px){
+  nav {
+    padding-bottom: 0.4rem;
+  }
+  
+  .mobile-nav {
+     margin-top: -0.3rem; 
+  }
+  
+  .match-1,
+  .match-2,
+  .match-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .match-1-players {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+  }
+
+  .match-2 {
+    background-color: var(--grey-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .match-2-text {
+    margin-bottom: 6rem;
+  }
+
+  .match-2-text h4 span {
+    color: grey
+  }
+
+  .match-2-players .player-1 ul li,
+  .match-2-players .player-2 ul li {
+  border: 1px solid gray;
+}
+
+  .match-3-players {
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media(max-width: 768px){
+  .mobile-nav {
+     margin-top: 0.4rem; 
+  }
+}
+
+@media(max-width: 540px){
+  .mobile-nav {
+     margin-top: 1.5rem; 
+  }
+
+  .match-1-players,
+  .match-2-players,
+  .match-3-players {
+    padding-left: 1.4rem;
+  }
+}
+
+@media(max-width: 414px){
+  nav {
+    width: 100%;
+  }
+
+  .mobile-nav {
+    margin-top: 0.8rem;
+  }
+  
+  .previews-title {
+    font-size: 0.7rem;
+  }
+
+  .previews-content {
+    width: 100%;
+  }
+  
+  .match-1 .match-1-players,
+  .match-2 .match-2-players,
+  .match-3 .match-3-players {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 2rem;
+ }
+
+ .match-1 .match-1-text,
+ .match-2 .match-2-text,
+ .match-3 .match-3-text {
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+ .versus {
+  margin-top: 1rem;
+  margin-bottom: 4.5rem;
+  margin-left: 6rem;
+  font-size: 2rem;
+ }
+
+ .footer-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-nav a {
+  border-bottom: 1px dotted var(--light-color);
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  width: 100%;
+  text-align: center;
+ }
+}
+
+@media(max-width: 393px){
+  .mobile-nav {
+    margin-top: 1rem;
+  }
+}
+
+@media(max-width: 375px){
+  .mobile-nav {
+    margin-top: 1.7rem;
+  }
+}
+
+@media(max-width: 360px){
+  .mobile-nav {
+    margin-top: 1.5rem;
+  }
+}

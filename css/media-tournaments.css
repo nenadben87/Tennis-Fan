@@ -1,0 +1,357 @@
+:root {
+  --primary-color: #BADA55;
+  --secondary-color: #7555da;
+  --blue-color: #55bada;
+  --purple-color: #da55ba;
+  --green-color: #78da55;
+  --light-color: #fff;
+  --dark-color: #333;
+  --grey-color: #cccc;
+  --hard-color: #276672;
+  --clay-color: #fb2e01;
+  --grass-color: #339900;
+}
+
+@media(min-width: 2560px){
+  .wrapper .tour-title h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .wrapper .first-tournament, 
+  .wrapper .second-tournament, 
+  .wrapper .third-tournament, 
+  .wrapper .fourth-tournament, 
+  .wrapper .fifth-tournament {
+    margin-bottom: 10rem;
+  }
+  
+  .first-tournament .first-tour-text h3,
+  .second-tournament .second-tour-text h3,
+  .third-tournament .third-tour-text h3,
+  .fourth-tournament .fourth-tour-text h3,
+  .fifth-tournament .fifth-tour-text h3 {
+    font-size: 3rem;
+  }
+
+  .first-tournament .first-tour-text p,
+  .second-tournament .second-tour-text p,
+  .third-tournament .third-tour-text p,
+  .fourth-tournament .fourth-tour-text p,
+  .fifth-tournament .fifth-tour-text p {
+    font-size: 2.4rem;
+  }
+  
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img,
+  .third-tournament .third-tour-img img,
+  .fourth-tournament .fourth-tour-img img,
+  .fifth-tournament .fifth-tour-img img {
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+@media(min-width: 1900px){
+  nav ul li a {
+    font-size: 1.6rem;
+  }
+
+  .first-tour-text h3,
+  .second-tour-text h3,
+  .third-tour-text h3,
+  .fourth-tour-text h3,
+  .fifth-tour-text h3 {
+    font-size: 2.5rem;
+  }
+
+  .first-tour-text p,
+  .second-tour-text p,
+  .third-tour-text p,
+  .fourth-tour-text p,
+  .fifth-tour-text p {
+    font-size: 3rem;
+  }
+  
+  .first-tour-img img,
+  .second-tour-img img,
+  .third-tour-img img,
+  .fourth-tour-img img,
+  .fifth-tour-img img {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media(min-width: 1536px){
+  .tour-title h2 {
+    font-size: 2rem;
+  }
+  
+  .first-tour-text h3,
+  .second-tour-text h3,
+  .third-tour-text h3,
+  .fourth-tour-text h3,
+  .fifth-tour-text h3 {
+    font-size: 2rem;
+  }
+
+  .first-tour-text p,
+  .second-tour-text p,
+  .third-tour-text p,
+  .fourth-tour-text p,
+  .fifth-tour-text p {
+    font-size: 1.2rem;
+  }
+
+  .first-tour-img img,
+  .second-tour-img img,
+  .third-tour-img img,
+  .fourth-tour-img img,
+  .fifth-tour-img img {
+    width: 600px;
+    height: 300px;
+  }
+
+  .footer-nav a {
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 915px){
+  .first-tour-img img,
+  .second-tour-img img,
+  .third-tour-img img,
+  .fourth-tour-img img,
+  .fifth-tour-img img {
+    height: 385px;
+  }
+}
+
+@media(max-width: 912px) and (min-width: 821px){
+  .first-tour-img img,
+  .second-tour-img img,
+  .third-tour-img img,
+  .fourth-tour-img img,
+  .fifth-tour-img img {
+    height: 385px;
+  }
+}
+
+@media(max-width: 851px) and (min-width: 844px){
+  .first-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+  .second-tournament {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+  .third-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+  .fourth-tournament {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+  .fifth-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 600px;
+    height: 350px;
+    margin-left: 14.5%;
+  }
+}
+
+@media(max-width: 820px){
+  nav {
+    padding-bottom: 0.4rem;
+  }
+
+  .mobile-nav {
+    margin-top: -5px;
+  }
+
+  .first-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+  .second-tournament {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+  .third-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+  .fourth-tournament {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+  .fifth-tournament {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+}
+
+@media(max-width: 820px) and (min-width: 769px){
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 600px;
+    height: 350px;
+    margin-left: 13%;
+  }
+}
+
+@media(max-width: 768px) and (min-width: 541px){
+  .mobile-nav {
+    margin-top: 6px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 600px;
+    height: 350px;
+    margin-left: 10%;
+  }
+}
+
+@media(max-width: 740px){
+  .mobile-nav {
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 720px){
+  .mobile-nav {
+    margin-top: 37px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    margin-left: 3.7rem;
+  }
+}
+
+@media(max-width: 667px){
+  .mobile-nav {
+    margin-top: 48px;
+  }
+  
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    margin-left: 2.1rem;
+  }
+}
+
+@media(max-width: 540px) and (min-width: 415px){
+  .mobile-nav {
+    margin-top: 27px;
+  }
+  
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 500px;
+    height: 300px;
+    margin-left: 3.5%;
+  }
+}
+
+@media(max-width: 414px){
+  .mobile-nav {
+    margin-top: 12px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 350px;
+    height: 300px;
+    margin-left: 2rem;
+  }
+}
+
+@media(max-width: 393px){
+  .mobile-nav {
+    margin-top: 18px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 330px;
+    height: 270px;
+    margin-left: 2rem;
+  }
+
+  .footer-nav a {
+    font-size: 0.8rem;
+  }
+}
+
+@media(max-width: 375px){
+  .mobile-nav {
+    margin-top: 30px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    width: 330px;
+    height: 270px;
+    margin-left: 1.4rem;
+  }
+}
+
+@media(max-width: 360px){
+  .mobile-nav {
+    margin-top: 23px;
+  }
+
+  .first-tournament .first-tour-img img,
+  .second-tournament .second-tour-img img, 
+  .third-tournament .third-tour-img img, 
+  .fourth-tournament .fourth-tour-img img, 
+  .fifth-tournament .fifth-tour-img img {
+    margin-left: 1rem;
+  }
+}
