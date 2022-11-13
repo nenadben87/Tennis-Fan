@@ -350,7 +350,7 @@ if(i === 3){
 
     showcaseText.innerHTML = `
     <h3>Berrettini versus Ruud match preview and detailed analyse</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
    
     newsImage.classList.add('inactive'); 
@@ -392,14 +392,14 @@ if(i === 3){
     showcaseText.style.marginTop = '20rem';
     showcaseText.innerHTML = `
     <h3>Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
 
     if(width <= 768){
       showcaseText.innerHTML = `
     <h3 style="font-size:1.5rem;">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
 
@@ -407,7 +407,7 @@ if(i === 3){
       showcaseText.style.marginTop = '12rem';
       showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
 
@@ -426,7 +426,7 @@ if(i === 3){
     if(height <= 540){
       showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
       showcaseText.style.marginTop = '10rem';
     }
@@ -437,7 +437,7 @@ if(i === 3){
 
     showcaseText.innerHTML = `
     <h3>US Open 2022</h3>
-    <a href="analyse.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
+    <a href="tournaments.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
     `;
     
     newsImage.classList.add('inactive');  
@@ -499,7 +499,7 @@ if(i === 3){
    if(height <= 540){
     showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">US Open 2022</h3>
-    <a href="analyse.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
+    <a href="tournaments.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
     `;
     showcaseText.style.marginTop = '10rem';
    }
@@ -694,7 +694,7 @@ function previousImage() {
 
     showcaseText.innerHTML = `
     <h3>Berrettini versus Ruud match preview and detailed analyse</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
    
     newsImage.classList.add('inactive'); 
@@ -736,14 +736,14 @@ function previousImage() {
       showcaseText.style.marginTop = '20rem';
       showcaseText.innerHTML = `
       <h3>Berrettini versus Ruud match preview</h3>
-      <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+      <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
       `;
     }
 
     if(width <= 768){
       showcaseText.innerHTML = `
     <h3 style="font-size:1.5rem">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
 
@@ -751,7 +751,7 @@ function previousImage() {
       showcaseText.style.marginTop = '12rem';
       showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
 
@@ -771,7 +771,7 @@ function previousImage() {
       showcaseText.style.marginTop = '10rem';
       showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">Berrettini versus Ruud match preview</h3>
-    <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+    <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
     `;
     }
   }
@@ -937,7 +937,7 @@ function previousImage() {
   if(height <= 540){
     showcaseText.innerHTML = `
     <h3 style="font-size:1rem;">US Open 2022</h3>
-    <a href="analyse.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
+    <a href="tournaments.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
     `;
     showcaseText.style.marginTop = '10rem';
   }
@@ -1050,7 +1050,7 @@ function showAnalyse() {
 
   showcaseText.innerHTML = `
   <h3>Berrettini versus Ruud match preview and detailed analyse</h3>
-  <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+  <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
   `;
  
   newsImage.classList.add('inactive'); 
@@ -1091,7 +1091,7 @@ function showAnalyse() {
       showcaseText.style.marginTop = '20rem';
       showcaseText.innerHTML = `
       <h3>Berrettini versus Ruud match preview</h3>
-      <a href="analyse.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
+      <a href="previews.html" style="background-color: #BADA55" onmouseover="this.style.backgroundColor='#a7c44c'" onmouseout="this.style.backgroundColor='#BADA55'">Match Analyse</a>
       `;
     }
 }
@@ -1103,7 +1103,7 @@ function showTournament() {
 
     showcaseText.innerHTML = `
     <h3>US Open 2022</h3>
-    <a href="analyse.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
+    <a href="tournaments.html" style="background-color: #7555da" onmouseover="this.style.backgroundColor='#694cc4'" onmouseout="this.style.backgroundColor='#7555da'">Read More</a>
     `;
     
     newsImage.classList.add('inactive');  
@@ -1160,7 +1160,7 @@ const leadJoined = leadText.join('');
 const concated = leadJoined.concat(' ...');
 
 const link = document.createElement('a')
-link.setAttribute('href','article1.html')
+link.setAttribute('href','news.html')
 link.appendChild(document.createTextNode('Read More'))
 link.style.paddingLeft = '0.7rem';
 link.style.color = '#55bada'
@@ -1186,7 +1186,7 @@ const joinedTxt = slicedTxt.join('');
 const concatTxt = joinedTxt.concat(' ...');
 
 const linked = document.createElement('a');
-linked.setAttribute('href','article2.html');
+linked.setAttribute('href','news.html');
 linked.appendChild(document.createTextNode('Read More'));
 linked.style.paddingLeft = '0.7rem';
 linked.style.color = '#55bada'
@@ -1210,7 +1210,7 @@ function formatPrevText() {
    const concatedTxt = joinedTxt.concat(' ...');
 
    const link = document.createElement('a');
-   link.setAttribute('href','preview.html');
+   link.setAttribute('href','previews.html');
    link.appendChild(document.createTextNode('Read More'));
    link.style.paddingLeft = '0.7rem';
    link.style.color = '#55bada';
@@ -1245,4 +1245,3 @@ function formatTourText() {
 
 formatTourText();
 
-console.log(window.innerWidth);
